@@ -96,6 +96,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_libdir}/gsmd/libgsmd-vendor_ti.la
 %{_libdir}/gsmd/libgsmd-vendor_tihtc.la
 %{_libdir}/libgsmd.la
+%{_libdir}/libgsmd.so
 %{_pkgconfigdir}/libgsmd.pc
 
 %files -n lib%{name}-static
