@@ -78,6 +78,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_sbindir}/gsmd
 
 %files -n lib%{name}
+%dir %attr(755,root,root) %{_libdir}/gsmd
 %attr(755,root,root) %{_libdir}/gsmd/libgsmd-machine_generic.so.0.0.0
 %attr(755,root,root) %{_libdir}/gsmd/libgsmd-machine_tihtc.so.0.0.0
 %attr(755,root,root) %{_libdir}/gsmd/libgsmd-vendor_qc.so.0.0.0
